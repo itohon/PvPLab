@@ -1,0 +1,18 @@
+SETTINGSBOT:
+  Token: ""
+  Activity: ""
+  Prefix: ""
+  GuildID: ""
+
+LOGS:
+  ClearLogModerationChannelByID: ""
+  TicketLogModerationChannelByID: ""
+
+TICKETSETTINGS:
+  OpenTicketRoleAddID: "" #This is to add the role blocked to a user so that they cannot open another ticket, Be careful, this role should be called BlockTicket, otherwise users will be able to create more than 100 tickets at the same time.
+  OpenTicketCategoryID: "" #It is mandatory, it is for when the ticket is opened it is created in that category.
+
+WELCOMESETTINGS:
+  JoinRoleID: ""
+  JoinMessageChannelID: ""
+
