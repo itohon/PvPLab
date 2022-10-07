@@ -1,1 +1,1 @@
-server: java src/main/java/me/ventus/Main.java
+Worker: java src/main/java/me/ventus/Main.java
