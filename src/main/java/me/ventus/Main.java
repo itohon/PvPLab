@@ -22,7 +22,7 @@ public class Main {
     public static JDA sharddMan;
     public static JDABuilder builder;
     public static String Prefix = "!";
-    public static LabToken = System.getenv("TOKEN");
+    public static String LabToken = System.getenv("TOKEN");
 
     public static void main(String[] args) throws LoginException, InterruptedException {
         builder = JDABuilder.createDefault(LabToken);
