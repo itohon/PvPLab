@@ -22,9 +22,10 @@ public class Main {
     public static JDA sharddMan;
     public static JDABuilder builder;
     public static String Prefix = "!";
+    public static LabToken = System.getenv("TOKEN")
 
     public static void main(String[] args) throws LoginException, InterruptedException {
-        builder = JDABuilder.createDefault("OTQ2NTc0MDA5MzE3ODUxMTQ3.GGyISs.PucyGFMAIaA8xm-1IZ1bZ5uxdISuNWue2pWqZg");
+        builder = JDABuilder.createDefault(LabToken);
 
         builder.setStatus(OnlineStatus.ONLINE);
         builder.setActivity(Activity.watching("pvplab.us"));
